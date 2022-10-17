@@ -36,7 +36,6 @@ section#telefone {
 
 iframe {
     border-radius: 40px;
-
 }
 
 iframe#tela {
@@ -60,19 +59,18 @@ section#redes-sociais img {
 }
 
 section#redes-sociais img:hover {
-    border: 3px solid rgba(255, 255, 255, 0.884);
+    border: 2px solid rgba(255, 255, 255, 0.884);
     transform: translate(-3px, -3px);
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.664);
     transition: transform 0.4s border 0.8s;
 }
-
 
 footer {
     text-align: center;
     margin-top: 40vh;
 }
 
-footer>p {
+footer > p {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1.1em;
     font-weight: bold;
@@ -92,10 +90,10 @@ footer>p>a:hover {
 
 /* RESPONSIVIDADE */
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 390px) {
     section#telefone {
         position: absolute;
-        top: 44%;
+        top: 46%;
         left: 42%;
         transform: translate(-50%, -50%);
 
