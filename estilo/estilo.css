@@ -93,7 +93,7 @@ footer>p>a:hover {
 @media screen and (max-width: 390px) {
     section#telefone {
         position: absolute;
-        top: 46%;
+        top: 50%;
         left: 42%;
         transform: translate(-50%, -50%);
 
@@ -107,7 +107,7 @@ footer>p>a:hover {
 
     footer {
         text-align: center;
-        margin-top: 6vh;
+        margin-top: 3vh;
     }
 
     footer>p {
