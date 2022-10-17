@@ -25,25 +25,25 @@ main {
 
 section#telefone {
     position: absolute;
-    top: 45.58%;
-    left: 60%;
-    transform: translate(-60%, -10%);
-    width: 500px;
-    height: 565px;
-    background: url('../imagens/0-telefone.png') no-repeat;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 328px;
+    height: 670px;
+    background: url('../imagens/telefone.png') no-repeat;
 }
 
 iframe {
-    border-radius: 29px;
+    border-radius: 40px;
     
 }
 
 iframe#tela {
     position: absolute;
-    top: 65px;
-    left: 118px;
-    width: 210px;
-    height: 429px;
+    top: 13px;
+    left: 15px;
+    width: 297px;
+    height: 643px;
 }
 
 section#redes-sociais {
@@ -52,14 +52,14 @@ section#redes-sociais {
 
 section#redes-sociais img{
     width: 50px;
-    margin: 15px;
+    margin: 10px 20px 10px 0px;
     border-radius: 50%;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.514);
     box-sizing: border-box;
 }
 
 section#redes-sociais img:hover {
-    border: 2px solid rgba(128, 128, 128, 0.555);
+    border: 3px solid rgba(255, 255, 255, 0.884);
     transform: translate(-3px, -3px);
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.664);
     transition: transform 0.4s border 0.8s;
