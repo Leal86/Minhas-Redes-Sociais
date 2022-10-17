@@ -69,14 +69,14 @@ section#redes-sociais img:hover {
     section#telefone {
         position: absolute;
         top: 50%;
-        left: 40%;
+        left: 42%;
         transform: translate(-50%, -50%);
        
     }
 
     section#redes-sociais img{
         width: 50px;
-        margin: 50px 50px 10px 0px;
+        margin: 50px 20px 10px 0px;
         
     }
     
