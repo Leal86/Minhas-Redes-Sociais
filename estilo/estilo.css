@@ -6,7 +6,8 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-html, body {
+html,
+body {
     width: 100vw;
     height: 100vh;
     background-color: black
@@ -35,7 +36,7 @@ section#telefone {
 
 iframe {
     border-radius: 40px;
-    
+
 }
 
 iframe#tela {
@@ -50,7 +51,7 @@ section#redes-sociais {
     text-align: right;
 }
 
-section#redes-sociais img{
+section#redes-sociais img {
     width: 50px;
     margin: 10px 20px 10px 0px;
     border-radius: 50%;
@@ -65,19 +66,68 @@ section#redes-sociais img:hover {
     transition: transform 0.4s border 0.8s;
 }
 
+
+footer {
+    text-align: center;
+    margin-top: 40vh;
+}
+
+footer>p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: rgb(180, 3, 3);
+}
+
+footer>p>a {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: black;
+}
+
+footer>p>a:hover {
+    cursor: pointer;
+    color: red;
+}
+
+/* RESPONSIVIDADE */
+
 @media screen and (max-width: 500px) {
     section#telefone {
         position: absolute;
-        top: 50%;
+        top: 44%;
         left: 42%;
         transform: translate(-50%, -50%);
-       
+
     }
 
-    section#redes-sociais img{
+    section#redes-sociais img {
         width: 50px;
-        margin: 50px 5px 10px 10px;
-        
+        margin: 50px 3px 10px 10px;
+
     }
-    
+
+    footer {
+        text-align: center;
+        margin-top: 6vh;
+    }
+
+    footer>p {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 1.1em;
+        font-weight: bold;
+        color: rgb(180, 3, 3);
+    }
+
+    footer>p>a {
+        text-decoration: none;
+        font-size: 1.2em;
+        color: black;
+    }
+
+    footer>p>a:hover {
+        cursor: pointer;
+        color: red;
+    }
+
 }
